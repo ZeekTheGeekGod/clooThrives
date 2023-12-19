@@ -1,0 +1,31 @@
+.joinBody{
+    height: 100vh;
+    margin-top: 0;
+    display:flex;
+    flex-direction: column;
+}
+
+/* ////////heading/////////// */
+.joinHeader{
+    background-image: linear-gradient(to bottom right, #FEFE0F,#FEFE0F, #EFABA5);
+    /* background-color: #FEFE0F; */
+    text-align: center;
+    color:#ED1501;
+    width:100%;
+    height: 3em;
+    /* display: flex; */
+    border-bottom: 1px #EFABA5 solid;
+}
+
+/* form */
+.joinForm{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% auto auto auto;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 5px 7px gray;
+}
